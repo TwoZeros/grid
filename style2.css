@@ -1,0 +1,37 @@
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.header{
+    grid-column: span 2;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-left: 20px;
+}
+.menu {
+    margin-right: 20px;
+}
+.menu a {
+    border: 1px solid bisque;
+    padding: 20px;
+}
+.bordered {
+    border: 1px solid black;
+    
+}
+.main {
+  min-height: 400px;
+}
+.footer {
+    grid-column: span 2;
+    height: 200px;
+}
+
+
